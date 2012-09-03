@@ -2,6 +2,7 @@
 
 bufferdevice * devGL;  // variáveis globais para facilitar a exibição com a glut
 palette * palGL;
+
 //OK
 void SetWorld(float xmin, float xmax, float ymin, float ymax) {
 	XWMax = xmax;
@@ -114,7 +115,7 @@ point * Sru2Srn(point * ponto, window * janela) {
   
   	return np;  
 }
-//Do Normalizado apra o Dispositivo
+//Do Normalizado para o Dispositivo
 point * Srn2Srd(point * ponto, bufferdevice * dev) {
   	point * dpt;
 
